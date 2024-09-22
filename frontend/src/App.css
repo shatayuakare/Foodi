@@ -2,4 +2,10 @@
 
 section {
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header div.navbar {
+  position: sticky !important;
+  top: 0 !important;
 }

@@ -42,7 +42,7 @@ const Menu = () => {
 
                 {
                     menu.map((elem, index) => (
-                        <div className="flex-1 shadow-md hover:shadow-xl rounded-[2rem] bg-white p-10 relative" key={index}>
+                        <div className="flex-1 shadow-md hover:shadow-xl rounded-[2rem] bg-white p-10 relative" key={index} data-aos="zoom-in-down" data-aos-duration="1000">
                             <button className="absolute top-0 end-0 h-16 w-20 bg-[#38DB4B] flex items-center justify-center rounded-se-[2rem] rounded-bl-[2rem]">
                                 {
                                     elem.like ?

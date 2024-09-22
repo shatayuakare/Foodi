@@ -47,10 +47,10 @@ const Services = () => {
                 <div className="w-[45%] grid grid-cols-2 gap-8">
                     {
                         services.map((elem, index) => (
-                            <div className="p-8 text-[#38DB4B] border shadow-lg rounded-[2rem] text-center" key={index}>
+                            <div className="p-8 text-[#38DB4B] border shadow-lg rounded-[2rem] text-center" key={index} data-aos="zoom-in-left" data-aos-duration="1500">
                                 <img className='mx-auto w-16 p-1' src={elem.img} alt={elem.title} />
 
-                                <div className='text-2xl font-bold py-2'>
+                                <div className='text-2xl font-bold py-3'>
                                     {elem.title}
                                 </div>
                                 <div className='text-lg font-semibold'>

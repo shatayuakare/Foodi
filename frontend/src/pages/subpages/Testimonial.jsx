@@ -7,7 +7,7 @@ const Testimonial = () => {
                 <div className='w-2/5 content-center'>
                     <img className='w-fit p-20 ps-0' src="https://food-website-blush-one.vercel.app/pngwing%202.png" alt="" />
                 </div>
-                <div className='w-3/5 content-center p-4'>
+                <div className='w-3/5 content-center p-4' data-aos="zoom-in-left" data-aos-duration="1500">
 
                     <h5 className='uppercase text-[#FF6868] font-bold text-xl'>Testimonials</h5>
 

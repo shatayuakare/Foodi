@@ -35,10 +35,9 @@ const Category = () => {
             </div>
             <div className="grid grid-cols-4 gap-10">
 
-
                 {
                     categories.map((elem, index) => (
-                        <div className='p-8 border shadow-md hover:shadow-xl rounded-[2rem] text-center' key={index}>
+                        <div className='p-8 border shadow-md hover:shadow-xl rounded-[2rem] text-center' key={index} data-aos="zoom-in-down" data-aos-duration="1000">
                             <div className='h-36 w-36 bg-[#C1F1C6] rounded-full mx-auto flex items-center justify-center'>
                                 <img className='p-3' src={elem.img} alt={elem.title} />
                             </div>

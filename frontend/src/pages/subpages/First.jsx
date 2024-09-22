@@ -27,7 +27,7 @@ const First = () => {
                     </div>
                 </div>
                 <div className='p-0'>
-                    <img className='w-full h-full' src="https://food-website-blush-one.vercel.app/static/media/heroimage.b9ee5d44a93ce6a45275.webp" alt="" />
+                    <img className='w-full h-full' data-aos="fade-down" data-aos-duration="1000" src="https://food-website-blush-one.vercel.app/static/media/heroimage.b9ee5d44a93ce6a45275.webp" alt="" />
                 </div>
             </div>
         </section>

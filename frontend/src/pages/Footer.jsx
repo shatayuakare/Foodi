@@ -58,7 +58,6 @@ const Footer = () => {
                             <li>example@email.com</li>
                             <li>+91 958 2480 966</li>
                             <li>Social media</li>
-
                         </ul>
                     </div>
                 </div>
